@@ -1,0 +1,8 @@
+Nel file backtesting/backtest_engine_mk2.py 
+cambia questa riga (circa riga 170):
+
+PRIMA:
+of = self.order_flow.get_order_flow_score(df_slice_h1)
+
+DOPO:
+of = self.order_flow.get_order_flow_score(df_slice_h1, current_bar=i)
