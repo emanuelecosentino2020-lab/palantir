@@ -1,0 +1,20 @@
+{
+  "EUR/USD": {
+    "error": "Dati insufficienti per EUR/USD"
+  },
+  "GBP/USD": {
+    "error": "Dati insufficienti per GBP/USD"
+  },
+  "USD/JPY": {
+    "error": "Dati insufficienti per USD/JPY"
+  },
+  "AUD/USD": {
+    "error": "Dati insufficienti per AUD/USD"
+  },
+  "USD/CAD": {
+    "error": "Dati insufficienti per USD/CAD"
+  },
+  "EUR/GBP": {
+    "error": "Dati insufficienti per EUR/GBP"
+  }
+}

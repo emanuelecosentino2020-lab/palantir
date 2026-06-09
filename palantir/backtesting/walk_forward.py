@@ -305,7 +305,7 @@ class WalkForwardBacktest:
 
         for symbol in FOREX_PAIRS:
             print(f"  Analisi {symbol}...")
-            result = self.run_walk_forward(symbol, total_days=730, train_days=180, test_days=90)
+            result = self.run_walk_forward(symbol, total_days=365, train_days=120, test_days=60)
             results[symbol] = result
 
             agg = result.get("aggregate", {})
